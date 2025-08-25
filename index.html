@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="/VercelFavicon.ico" type="image/x-icon">
     <title>Replica's Project</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
 </head>
 <body>
 
@@ -35,8 +35,8 @@
         <!-- NAVBAR-SECTION1-PART2 -->
         <div class="navbar-section1-part2">
             <div class="navbar-textbox">
-                <input type="text" placeholder="Find..." style="border-radius: 5px;">
-                <p style="font-size: 12px;">F</p>                                     <!--STYLE ADDED-->
+                <input class = "input-field" type="text" placeholder="Find..." style="border-radius: 5px;">
+                <button class="input-button">F</button>                                     <!--STYLE ADDED-->
             </div>
             <p style="font-weight: bold;">Feedback</p>
             <?xml version="1.0" encoding="UTF-8"?>
@@ -83,11 +83,12 @@
         <!-- MAIN-BODY1 -->
         <div class="main-body1">
             <div class="main-body1-textbox">
-                <input type="text" placeholder="Search Projects..." style="height:38.77px; border-radius: 5px; min-width: 100%;">
+                <input type="text" class="proj-searchbox" placeholder="Search Projects...">
             </div>
+            <img src="filtericon.png" height="49.77" style="border: 1px solid rgb(218, 218, 218); border-radius: 5px;">                     <!--STYLE ADDED-->    
             <div class="main-body1-icons">
                 <?xml version="1.0" encoding="UTF-8"?>                      
-                <svg xmlns="http://www.w3.org/2000/svg" data-testid="geist-icon" height="16" stroke-linejoin="round" viewBox="0 0 16 16" width="16" style="border: none grey; background-color: rgb(208, 208, 208); border-radius: 5px; padding: 15px;">                   <!-- BORDER APPLIED -->
+                <svg xmlns="http://www.w3.org/2000/svg" data-testid="geist-icon" height="16" stroke-linejoin="round" viewBox="0 0 16 16" width="16" style="border: none grey; background-color: rgb(208, 208, 208); border-radius: 5px; padding: 10px;">                   <!-- BORDER APPLIED -->
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M2.5 5.5V2.5H5.5V5.5H2.5ZM1 2C1 1.44772 1.44772 1 2 1H6C6.55228 1 7 1.44772 7 2V6C7 6.55228 6.55228 7 6 7H2C1.44772 7 1 6.55228 1 6V2ZM2.5 13.5V10.5H5.5V13.5H2.5ZM1 10C1 9.44772 1.44772 9 2 9H6C6.55228 9 7 9.44772 7 10V14C7 14.5523 6.55228 15 6 15H2C1.44772 15 1 14.5523 1 14V10ZM10.5 2.5V5.5H13.5V2.5H10.5ZM10 1C9.44772 1 9 1.44772 9 2V6C9 6.55228 9.44772 7 10 7H14C14.5523 7 15 6.55228 15 6V2C15 1.44772 14.5523 1 14 1H10ZM10.5 13.5V10.5H13.5V13.5H10.5ZM9 10C9 9.44772 9.44772 9 10 9H14C14.5523 9 15 9.44772 15 10V14C15 14.5523 14.5523 15 14 15H10C9.44772 15 9 14.5523 9 14V10Z" fill="black"></path>
                 </svg>
                 <?xml version="1.0" encoding="UTF-8"?>
@@ -95,10 +96,11 @@
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M2.5 4C3.19036 4 3.75 3.44036 3.75 2.75C3.75 2.05964 3.19036 1.5 2.5 1.5C1.80964 1.5 1.25 2.05964 1.25 2.75C1.25 3.44036 1.80964 4 2.5 4ZM2.5 9.25C3.19036 9.25 3.75 8.69036 3.75 8C3.75 7.30964 3.19036 6.75 2.5 6.75C1.80964 6.75 1.25 7.30964 1.25 8C1.25 8.69036 1.80964 9.25 2.5 9.25ZM3.75 13.25C3.75 13.9404 3.19036 14.5 2.5 14.5C1.80964 14.5 1.25 13.9404 1.25 13.25C1.25 12.5596 1.80964 12 2.5 12C3.19036 12 3.75 12.5596 3.75 13.25ZM6.75 2H6V3.5H6.75H14.25H15V2H14.25H6.75ZM6.75 7.25H6V8.75H6.75H14.25H15V7.25H14.25H6.75ZM6.75 12.5H6V14H6.75H14.25H15V12.5H14.25H6.75Z" fill="black"></path>
                 </svg>
             </div>
-                
-            <select class="search-select" style="background-color: black; color: white; padding: 5px; border-radius: 5px;">                       <!-- STYLE APPLIED -->
+            <div class="main-body1-select">   
+            <select class="search-select" style="background-color: black; color: white; height: 52.77px ;padding: 5px; font-size: 15px; border-radius: 5px;">                       <!-- STYLE APPLIED -->
                     <option>Add New...</option>
             </select>
+            </div>
         </div>
 
 
@@ -110,33 +112,33 @@
                 <h4 style="margin: 10px;">Usage</h4>                                 <!-- MARGIN ADDED-->
                 <div class="body2-box1">
                     <div class="box1-section1">
-                        <div class="section1-part1">
-                            <p>Last 30 days</p>
-                            <p>Updated 11m ago</p>
+                        <div class="box1-section1-part1">                                 
+                            <p style="font-weight: bold; padding-bottom: 8px;">Last 30 days</p>
+                            <p style="color: rgb(70, 70, 70);">Updated 11m ago</p>
                         </div>
-                        <button style="background-color: black; color: white; padding: 5px; border-radius: 5px;">Upgrade</button>             <!-- STYLE APPLIED -->
+                        <button style="background-color: black; color: white; padding: 10px; border-radius: 10px; border: none;">Upgrade</button>             <!-- STYLE APPLIED -->
                     </div>
                     <div class="box1-section2">
                         <div class="section2-part1">
-                            <p>Fast Data Transfer</p>
-                            <p>773.59 MB / 100 GB</p>
+                            <p><img src="Progress-circle.png" height="20px"> Fast Data Transfer</p>
+                            <p style="color: rgb(70, 70, 70);">773.59 MB / 100 GB</p>
                         </div>
                         <div class="section2-part2">
-                            <p>Edge Requests</p>
-                            <p>6.6K / 1M</p>
+                            <p><img src="Progress-circle.png" height="20px"> Edge Requests</p>
+                            <p style="color: rgb(70, 70, 70);">6.6K / 1M</p>
                         </div>
                         <div class="section2-part3">
-                            <p>Edge Request CPU Duration</p>
-                            <p>0s/1h</p>
+                            <p><img src="Progress-circle.png" height="20px"> Edge Request CPU Duration</p>
+                            <p style="color: rgb(70, 70, 70);">0s/1h</p>
                         </div>
                     </div>
                 </div>  <br>
                 <h4 style="margin: 10px;">Recent Previews</h4>                               <!-- MARGIN ADDED-->
-                <div class="body2-box2"> 
-                    <svg data-testid="geist-icon" height="16" stroke-linejoin="round" style="color: currentcolor;" viewBox="0 0 16 16" width="16">
+                <div class="body2-part2"> 
+                    <svg data-testid="geist-icon" height="16" stroke-linejoin="round" style="color: currentcolor;" viewBox="0 0 16 16" width="16" class="b2b2-svg">
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M4.02174 4.76932C6.11625 2.33698 9.8838 2.33698 11.9783 4.76932L14.7603 7.99999L13.6664 9.27031L14.6934 10.3764L16.3184 8.48938V7.5106L13.115 3.79054C10.422 0.663244 5.57803 0.663247 2.88509 3.79054L-0.318298 7.5106V8.48938L2.88509 12.2094C4.7342 14.3568 7.59749 15.0297 10.0822 14.2281L8.9183 12.9747C7.16767 13.2832 5.28865 12.7019 4.02174 11.2307L1.23978 7.99999L4.02174 4.76932ZM8 6C6.89543 6 6 6.89543 6 8C6 9.10457 6.89543 10 8 10C9.10457 10 10 9.10457 10 8C10 6.89543 9.10457 6 8 6ZM4.5 8C4.5 6.067 6.067 4.5 8 4.5C9.933 4.5 11.5 6.067 11.5 8C11.5 8.63488 11.331 9.23028 11.0354 9.74364L14.0496 12.9897L14.5599 13.5393L13.4607 14.5599L12.9504 14.0103L10.0223 10.857C9.4512 11.262 8.7534 11.5 8 11.5C6.067 11.5 4.5 9.933 4.5 8Z" fill="currentColor"/>
                     </svg>
-                    <p>Preview deployements that you have recently visited or creates will appear here.</p>
+                    <p style="color: gray; justify-content: center;">Preview deployments that you have recently visited or creates will appear here.</p>
                 </div>
              </div>
             
@@ -148,25 +150,39 @@
                 <div class="body2-box1">
                     <div class="box1-section1">
                         <div class="section1-part1">
-                            <p style="font-weight: bold;">spark-2-k25-2-k26</p>
-                            <p>spark-2k25.vercel.app</p>
+                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M24 0C24.815 12.902 35.098 23.185 48 24C35.098 24.815 24.815 35.098 24 48C23.185 35.098 12.902 24.815 0 24C12.902 23.185 23.185 12.902 24 0Z" fill="url(#paint0_linear_133_1389)"/>
+                                <defs>
+                                <linearGradient id="paint0_linear_133_1389" x1="2.37736" y1="-4.98113" x2="33" y2="43.5" gradientUnits="userSpaceOnUse">
+                                <stop offset="0.281605" stop-color="#FF812A"/>
+                                <stop offset="1" stop-color="#D387FF"/>
+                                </linearGradient>
+                                </defs>
+                            </svg>
+                            <div class="section1-part1-1" style="padding-left: 20px; row-gap: 10px;">
+                                <p style="font-weight: bold; color: black;">spark-2-k25-2-k26</p>                                              <!-- STYLE ADDED-->
+                                <p style="color: rgb(70, 70, 70); padding-top: 8px;">spark-2k25.vercel.app</p>                                  <!-- STYLE ADDED-->
+                            </div>
                         </div>
                         <?xml version="1.0" encoding="UTF-8"?>
-                        <svg xmlns="http://www.w3.org/2000/svg" data-testid="geist-icon" height="16" stroke-linejoin="round" viewBox="0 0 16 16" width="16" style="border: 4px solid rgb(215, 215, 215); border-radius: 50%; padding: 5px;">                       <!-- BORDER APPLIED -->
-                          <path fill-rule="evenodd" clip-rule="evenodd" d="M5.51324 3.62367L3.76375 8.34731C3.61845 8.7396 3.24433 8.99999 2.826 8.99999H0.75H0V7.49999H0.75H2.47799L4.56666 1.86057C4.88684 0.996097 6.10683 0.988493 6.43776 1.84891L10.5137 12.4463L12.2408 8.1286C12.3926 7.74894 12.7604 7.49999 13.1693 7.49999H15.25H16V8.99999H15.25H13.5078L11.433 14.1868C11.0954 15.031 9.8976 15.023 9.57122 14.1744L5.51324 3.62367Z" fill="black"></path>
-                        </svg>
+                        <div class="section1-part1-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" data-testid="geist-icon" height="16" stroke-linejoin="round" viewBox="0 0 16 16" width="16" style="border: 4px solid rgb(215, 215, 215); border-radius: 50%; padding: 5px;">                       <!-- BORDER APPLIED -->
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.51324 3.62367L3.76375 8.34731C3.61845 8.7396 3.24433 8.99999 2.826 8.99999H0.75H0V7.49999H0.75H2.47799L4.56666 1.86057C4.88684 0.996097 6.10683 0.988493 6.43776 1.84891L10.5137 12.4463L12.2408 8.1286C12.3926 7.74894 12.7604 7.49999 13.1693 7.49999H15.25H16V8.99999H15.25H13.5078L11.433 14.1868C11.0954 15.031 9.8976 15.023 9.57122 14.1744L5.51324 3.62367Z" fill="black"></path>
+                            </svg>
+                        <img src="threedots.png" style="height: 15px;">                                              <!-- STYLE ADDED-->
+                        </div>
                     </div>
                     <div class="box1-section2">
-                         <p style="border: 1px solid grey; background-color: rgb(208, 208, 208); border-radius: 10px; padding: 5px; font-weight: bold;">                 <!-- STYLE ADDED -->
+                         <p style="border: none; background-color: rgb(231, 230, 230); border-radius: 20px; padding: 5px; width: fit-content;">                 <!-- STYLE ADDED -->
                             <?xml version="1.0" encoding="UTF-8"?>
                             <svg xmlns="http://www.w3.org/2000/svg" aria-label="github" height="14" viewBox="0 0 14 14" width="14" class="m-0.5 shrink-0">
                               <path d="M7 .175c-3.872 0-7 3.128-7 7 0 3.084 2.013 5.71 4.79 6.65.35.066.482-.153.482-.328v-1.181c-1.947.415-2.363-.941-2.363-.941-.328-.81-.787-1.028-.787-1.028-.634-.438.044-.416.044-.416.7.044 1.071.722 1.071.722.635 1.072 1.641.766 2.035.59.066-.459.24-.765.437-.94-1.553-.175-3.193-.787-3.193-3.456 0-.766.262-1.378.721-1.881-.065-.175-.306-.897.066-1.86 0 0 .59-.197 1.925.722a6.754 6.754 0 0 1 1.75-.24c.59 0 1.203.087 1.75.24 1.335-.897 1.925-.722 1.925-.722.372.963.131 1.685.066 1.86.46.48.722 1.115.722 1.88 0 2.691-1.641 3.282-3.194 3.457.24.219.481.634.481 1.29v1.926c0 .197.131.415.481.328C11.988 12.884 14 10.259 14 7.175c0-3.872-3.128-7-7-7z" fill="black" fill-rule="nonzero"></path>
                             </svg>
                             Replica/Spark-2K25---2K26
                         </p>
-                        <p style="font-weight: bold;">Added README.md</p>                             <!-- STYLE ADDED-->
-                        <p>
-                            Aug 20 on main
+                        <p style="font-weight: bold; padding-top: 2%;">Added README.md</p>                             <!-- STYLE ADDED-->
+                        <p style="color: rgb(70, 70, 70); padding-top: 8px;">                                       <!-- STYLE ADDED-->
+                            Aug 20 on <img src="branch.png" style="height: 15px;"> main
                         </p>
                     </div>
                 </div>              <br>
@@ -174,31 +190,38 @@
                 <div class="body2-box2">
                     <div class="box2-section1">
                         <div class="section1-part1">
-                            <p style="font-weight: bold;">jovian-responsive-page</p>                                       
-                            <p>jovian-responsive-page.vercel.app</p>                            
+                            <img src="favicon2.png" style="height: 38px; margin-top: 3px;">
+                            <div class="section1-part1-1" style="padding-left: 20px; row-gap: 10px;">
+                                <p style="font-weight: bold;">jovian-responsive-page</p>                                       
+                                <p style="color: rgb(70, 70, 70); padding-top: 8px;">jovian-responsive-page.vercel.app</p>
+                            </div>                                                     
                         </div>
-                        <?xml version="1.0" encoding="UTF-8"?>
-                        <svg xmlns="http://www.w3.org/2000/svg" data-testid="geist-icon" height="16" stroke-linejoin="round" viewBox="0 0 16 16" width="16" style="border: 4px solid rgb(215, 215, 215); border-radius:50%; padding: 5px;">                         <!-- BORDER APPLIED -->
-                          <path fill-rule="evenodd" clip-rule="evenodd" d="M5.51324 3.62367L3.76375 8.34731C3.61845 8.7396 3.24433 8.99999 2.826 8.99999H0.75H0V7.49999H0.75H2.47799L4.56666 1.86057C4.88684 0.996097 6.10683 0.988493 6.43776 1.84891L10.5137 12.4463L12.2408 8.1286C12.3926 7.74894 12.7604 7.49999 13.1693 7.49999H15.25H16V8.99999H15.25H13.5078L11.433 14.1868C11.0954 15.031 9.8976 15.023 9.57122 14.1744L5.51324 3.62367Z" fill="black"></path>
-                        </svg>
+                        <div class="section1-part1-2">
+                            <?xml version="1.0" encoding="UTF-8"?>
+                            <svg xmlns="http://www.w3.org/2000/svg" data-testid="geist-icon" height="16" stroke-linejoin="round" viewBox="0 0 16 16" width="16" style="border: 4px solid rgb(215, 215, 215); border-radius:50%; padding: 5px;">                         <!-- BORDER APPLIED -->
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M5.51324 3.62367L3.76375 8.34731C3.61845 8.7396 3.24433 8.99999 2.826 8.99999H0.75H0V7.49999H0.75H2.47799L4.56666 1.86057C4.88684 0.996097 6.10683 0.988493 6.43776 1.84891L10.5137 12.4463L12.2408 8.1286C12.3926 7.74894 12.7604 7.49999 13.1693 7.49999H15.25H16V8.99999H15.25H13.5078L11.433 14.1868C11.0954 15.031 9.8976 15.023 9.57122 14.1744L5.51324 3.62367Z" fill="black"></path>
+                            </svg>
+                            <img src="threedots.png" style="height: 15px;">                               <!-- STYLE ADDED-->
+                        </div>
                     </div>
-                    <div class="box1-section2">
-                        <p style="border: 1px solid grey; background-color: rgb(208, 208, 208); border-radius: 10px; padding: 5px;">                          <!-- BORDER APPLIED -->
+                    <div class="box2-section2">
+                        <p style="border: none; background-color: rgb(231, 230, 230); border-radius: 20px; padding: 5px; width: fit-content;">                         <!-- BORDER APPLIED -->
                             <?xml version="1.0" encoding="UTF-8"?>
                             <svg xmlns="http://www.w3.org/2000/svg" aria-label="github" height="14" viewBox="0 0 14 14" width="14" class="m-0.5 shrink-0">
                               <path d="M7 .175c-3.872 0-7 3.128-7 7 0 3.084 2.013 5.71 4.79 6.65.35.066.482-.153.482-.328v-1.181c-1.947.415-2.363-.941-2.363-.941-.328-.81-.787-1.028-.787-1.028-.634-.438.044-.416.044-.416.7.044 1.071.722 1.071.722.635 1.072 1.641.766 2.035.59.066-.459.24-.765.437-.94-1.553-.175-3.193-.787-3.193-3.456 0-.766.262-1.378.721-1.881-.065-.175-.306-.897.066-1.86 0 0 .59-.197 1.925.722a6.754 6.754 0 0 1 1.75-.24c.59 0 1.203.087 1.75.24 1.335-.897 1.925-.722 1.925-.722.372.963.131 1.685.066 1.86.46.48.722 1.115.722 1.88 0 2.691-1.641 3.282-3.194 3.457.24.219.481.634.481 1.29v1.926c0 .197.131.415.481.328C11.988 12.884 14 10.259 14 7.175c0-3.872-3.128-7-7-7z" fill="black" fill-rule="nonzero"></path>
                             </svg>
                             Replica/jovian-responsive-...
                         </p>
-                        <p style="font-weight: bold;">Added README.md</p>                       <!-- STYLE ADDED-->
-                        <p>
-                            6/27/24 on main
+                        <p style="font-weight: bold; padding-top: 2%">Added README.md</p>                                <!-- STYLE ADDED-->
+                        <p style="color: rgb(70, 70, 70); padding-top: 8px;">                                         <!-- STYLE ADDED-->
+                            6/27/24 on <img src="branch.png" style="height: 15px;"> main                                   
                         </p>
                     </div>
                 </div>         <br>
-                <!-- MAIN-BODY2-BOX2 -->
-                <div class="body2-box2">
-                    <p style="font-weight: bold;">profile</p>                         <!-- STYLE ADDED-->
+                <!-- MAIN-BODY2-BOX3 -->
+                <div class="body2-box3">
+                    <img src="favicon3.png" height="30px">
+                    <p style="font-weight: bold; padding-left: 10px;">profile</p>                         <!-- STYLE ADDED-->
                 </div>
 
              </div>
