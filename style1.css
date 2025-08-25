@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+}
+
+
+
+/* NAVBAR */
+
+.navbar-section1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.navbar-section1-part1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.navbar-section1-part1 p {
+    border: none grey;
+    background-color: rgb(218, 218, 218);
+    border-radius: 15px;
+    font-size: small;
+    padding: 5px;
+}
+.navbar-section1-part2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar-section1-part2 p {
+    border: 1px solid rgb(218, 218, 218);
+    border-radius: 5px;
+    font-size: small;
+    padding: 5px;
+}
+.navbar-section1-part2 svg {
+    border: 1px solid rgb(218, 218, 218);
+    width: 30px;
+}
+
+.navbar-textbox {
+    border: 1px solid rgb(218, 218, 218);
+    display: inline-block;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.navbar-textbox input:focus, .navbar-textbox input:active {
+    outline: none;
+}
+.navbar-textbox input {
+    width: 80%;
+    border: none;
+}
+
+.navbar-textbox button {
+    float: right;
+    background-color: white;
+    border: 1px solid #a9a9a9;
+    border-radius: 5px;
+    font-size: 10px;
+    margin: 3px;
+    padding-top: 5px;
+    padding-right: 7px;
+    padding-bottom: 3px;
+    padding-left: 7px;
+}
+
+.navbar-section1-part2 svg {
+    border: 1px solid grey;
+    border-radius: 50%;
+    padding: 5px;
+}
+.navbar-section2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+/* MAIN-BODY */
+
+.main-body {
+    background-color: rgb(252, 250, 250);
+    min-height: 100vh;
+    padding: 20px;
+}
+.main-body1 {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 10px;
+}
+.proj-searchbox {
+    height:50px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.main-body1-icons {
+    border: 1px solid grey;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    gap: 10px;
+}
+.main-body1-textbox {
+    padding: 5px;
+}
+.main-body1-icons, .main-body1-select {
+    height: 52.77px;
+    padding: 3px;
+}
+
+.main-body1-textbox {
+    width: 100%;
+}
+
+.search-select {
+    border-radius: 10px;
+}
+
+
+.main-body2 {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.main-body2-part1, .main-body2-part2 {
+    width: 49%;
+    padding: 10px;
+} 
+
+.body2-box1 {
+    border: 1px solid grey;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.box1-section1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.box1-section2, .box2-section2 {
+    padding: 10px;
+}
+
+.section1-part1 {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.section1-part1 svg {
+    height: 45px;
+}
+.section1-part1-2 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.section2-part1, .section2-part3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0px solid rgb(247, 246, 246);
+    background-color: rgb(252, 250, 250);
+    border-radius: 5px;
+    padding: 5px;
+}
+.section2-part2 {
+    display: flex;
+    border: 0px solid white;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+
+.body2-box2 {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+    display: column;
+    align-content: center;
+    justify-content: center;
+}
+.body2-part2 svg {
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    size: 50px;
+}
+.body2-part2 {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box2-section1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.body2-box1 {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+}
+.body2-box2 {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+}
+.body2-box3 {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+

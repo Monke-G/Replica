@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* NAVBAR */
+
+.navbar-section1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.navbar-section1-part1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.navbar-section1-part1 p {
+    border: none grey;
+    background-color: rgb(208, 208, 208);
+    border-radius: 15px;
+    font-size: small;
+    padding: 5px;
+}
+.navbar-section1-part2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.navbar-textbox p {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+}
+.navbar-section1-part2 p {
+    border: 1px solid grey;
+    border-radius: 5px;
+    font-size: small;
+    padding: 5px;
+}
+.navbar-textbox {
+    display: flex;
+}
+.navbar-section1-part2 svg {
+    border: 1px solid grey;
+    border-radius: 50%;
+    padding: 5px;
+}
+.navbar-section2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+/* MAIN-BODY */
+
+.main-body {
+    background-color: rgb(230, 230, 230);
+    min-height: 100vh;
+    padding: 20px;
+}
+.main-body1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.main-body1-icons {
+    border: 1px solid grey;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 5px;
+    gap: 10px;
+}
+
+
+.main-body2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: ;
+}
+.body2-box1 {
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 5px;
+}
+.box1-section1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section2-part1 {
+    display: flex;
+    justify-content: space-between;
+    border: 0px solid grey;
+    background-color: rgb(230, 230, 230);
+    border-radius: 5px;
+    padding: 5px;
+}
+.section2-part2 {
+    display: flex;
+    border: 0px solid white;
+    justify-content: space-between;
+    padding: 5px;
+}
+.section2-part3 {
+    display: flex;
+    justify-content: space-between;
+    border: 0px solid grey;
+    background-color: rgb(230, 230, 230);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+.body2-box2 {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+}
+.body2-box2 svg {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+}
+.box2-section1 {
+    display: flex;
+    align-items: center;
+}
+
+
+.body2-box1 {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+}
+.body2-box2 {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+}
+.body2-box3 {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+}
